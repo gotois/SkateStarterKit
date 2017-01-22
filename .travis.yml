@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js: '6'
+
+notifications:
+  email: false
+
+branches:
+  only:
+  - master
+
+script:
+  - npm run clean
+  - npm run lint
+  - npm test

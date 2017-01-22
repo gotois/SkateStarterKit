@@ -1,0 +1,41 @@
+{
+  "name": "skatejs-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "README.md",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.9.0",
+    "browser-sync": "^2.12.5",
+    "chai": "^3.5.0",
+    "flow-bin": "^0.38.0",
+    "gulp-webpack": "^1.5.0",
+    "mocha": "^2.5.3",
+    "postcss-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "skatejs": "^4.6.2",
+    "skatejs-web-components": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register ./test/runner.js",
+    "clean": "rm -rf www/dist",
+    "lint": "node_modules/.bin/gulp flow",
+    "start": "node_modules/.bin/gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tewst/SkateStarterKit.git"
+  },
+  "author": "goto Interactive Software",
+  "license": "MIT"
+}
