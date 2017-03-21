@@ -1,11 +1,11 @@
-# Skate.js Starter Kit [![Build Status](https://travis-ci.org/tewst/SkateStarterKit.svg?branch=master)](https://travis-ci.org/tewst/SkateStarterKit)
+# Skate.js Starter Kit [![Build Status](https://travis-ci.org/gotois/SkateStarterKit.svg?branch=master)](https://travis-ci.org/gotois/SkateStarterKit)
 
-## Start local server:
+## Start local server
 ```sh
 npm start
 ```
 
-## Code check:
+## Linter
 ```sh
 npm run lint
 ```
